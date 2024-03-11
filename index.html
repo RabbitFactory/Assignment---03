@@ -30,13 +30,28 @@
     <!-- Custom CSS -->
     <style>
         .Manrope_Font {
-            font-family: "Manrope", sans-serif;            
+            font-family: "Manrope", sans-serif;
         }
+
         .custom_radial_code {
             transform: scaleX(-1) rotate(-90deg);
         }
+
         .custom_radial_content_code {
             transform: scaleY(-1) rotate(90deg);
+        }
+
+        .card.image-full:before {
+            opacity: 0.4;
+            background-color: rgb(0, 0, 0);
+        }
+
+        .card-body {
+            justify-content: flex-end;
+        }
+
+        .card-body p {
+            flex-grow: 0;
         }
     </style>
 </head>
@@ -56,14 +71,15 @@
                         </div>
                         <ul tabindex="0"
                                 class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                                <li><a>Home</a></li>
-                                <li><a>About</a></li>
-                                <li><a>Pages</a></li>
-                                <li><a>Blog</a></li>
-                                <li><a>Contact</a></li>
+                            <li><a>Home</a></li>
+                            <li><a>About</a></li>
+                            <li><a>Pages</a></li>
+                            <li><a>Blog</a></li>
+                            <li><a>Contact</a></li>
                         </ul>
                     </div>
-                    <a class="btn btn-ghost text-3xl font-extrabold">Hockey<span class="text-red-500">&rsquo;</span>s</a> 
+                    <a class="btn btn-ghost text-3xl font-extrabold">Hockey<span
+                                class="text-red-500">&rsquo;</span>s</a>
                 </div>
                 <div class="navbar-center hidden lg:flex">
                     <ul class="menu menu-horizontal px-1">
@@ -94,9 +110,11 @@
                         <a href="#slide4" class="btn btn-circle bg-black text-white border-black">❮</a>
                         <a href="#slide2" class="btn btn-circle bg-black text-white border-black">❯</a>
                     </div>
-                    <div class="hidden lg:block bg-black text-white lg:absolute z-10 lg:right-10 lg:bottom-10 lg:w-3/6 p-12 rounded-xl space-y-7">
+                    <div
+                            class="hidden lg:block bg-black text-white lg:absolute z-10 lg:right-10 lg:bottom-10 lg:w-3/6 p-12 rounded-xl space-y-7">
                         <h2 class="text-4xl">Meet all the heroes from the field</h2>
-                        <p class="text-gray-300">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quam tempora cum numquam, sequi dignissimos!</p>
+                        <p class="text-gray-300">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quam
+                            tempora cum numquam, sequi dignissimos!</p>
                     </div>
                 </div>
                 <div id="slide2" class="carousel-item relative w-full">
@@ -105,9 +123,11 @@
                         <a href="#slide1" class="btn btn-circle bg-black text-white border-black">❮</a>
                         <a href="#slide3" class="btn btn-circle bg-black text-white border-black">❯</a>
                     </div>
-                    <div class="hidden lg:block bg-black text-white absolute z-10 right-10 bottom-10 w-3/6 p-12 rounded-xl space-y-7">
+                    <div
+                            class="hidden lg:block bg-black text-white absolute z-10 right-10 bottom-10 w-3/6 p-12 rounded-xl space-y-7">
                         <h2 class="text-4xl">Meet all the heroes from the field</h2>
-                        <p class="text-gray-300">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quam tempora cum numquam, sequi dignissimos!</p>
+                        <p class="text-gray-300">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quam
+                            tempora cum numquam, sequi dignissimos!</p>
                     </div>
                 </div>
                 <div id="slide3" class="carousel-item relative w-full">
@@ -116,9 +136,11 @@
                         <a href="#slide2" class="btn btn-circle bg-black text-white border-black">❮</a>
                         <a href="#slide4" class="btn btn-circle bg-black text-white border-black">❯</a>
                     </div>
-                    <div class="hidden lg:block bg-black text-white absolute z-10 right-10 bottom-10 w-3/6 p-12 rounded-xl space-y-7">
+                    <div
+                            class="hidden lg:block bg-black text-white absolute z-10 right-10 bottom-10 w-3/6 p-12 rounded-xl space-y-7">
                         <h2 class="text-4xl">Meet all the heroes from the field</h2>
-                        <p class="text-gray-300">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quam tempora cum numquam, sequi dignissimos!</p>
+                        <p class="text-gray-300">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quam
+                            tempora cum numquam, sequi dignissimos!</p>
                     </div>
                 </div>
                 <div id="slide4" class="carousel-item relative w-full">
@@ -127,16 +149,19 @@
                         <a href="#slide3" class="btn btn-circle bg-black text-white border-black">❮</a>
                         <a href="#slide1" class="btn btn-circle bg-black text-white border-black">❯</a>
                     </div>
-                    <div class="hidden lg:block bg-black text-white absolute z-10 right-10 bottom-10 w-3/6 p-12 rounded-xl space-y-7">
+                    <div
+                            class="hidden lg:block bg-black text-white absolute z-10 right-10 bottom-10 w-3/6 p-12 rounded-xl space-y-7">
                         <h2 class="text-4xl">Meet all the heroes from the field</h2>
-                        <p class="text-gray-300">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quam tempora cum numquam, sequi dignissimos!</p>
+                        <p class="text-gray-300">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quam
+                            tempora cum numquam, sequi dignissimos!</p>
                     </div>
                 </div>
             </div>
         </div>
         <div class="lg:hidden bg-black text-white p-6 rounded-xl space-y-7 m-4">
             <h2 class="text-3xl">Meet all the heroes from the field</h2>
-            <p class="text-gray-300">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quam tempora cum numquam, sequi dignissimos!</p>
+            <p class="text-gray-300">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quam tempora cum
+                numquam, sequi dignissimos!</p>
         </div>
     </header>
 
@@ -157,22 +182,30 @@
 
         <div class="flex flex-col lg:flex-row items-center justify-center text-center gap-40 py-10">
             <div class="scale-150 space-y-2">
-                <div class="radial-progress custom_radial_code " style="--value:87; color: rgb(255, 7, 7);" role="progressbar"><span class="custom_radial_content_code text-black font-extrabold">87%</span></div>
+                <div class="radial-progress custom_radial_code " style="--value:87; color: rgb(255, 7, 7);"
+                        role="progressbar"><span class="custom_radial_content_code text-black font-extrabold">87%</span>
+                </div>
                 <h4 class="text-xl font-bold">Player Facility</h4>
                 <p>Lorem ipsum dolor sit amet.</p>
             </div>
             <div class="scale-150 space-y-2">
-                <div class="radial-progress custom_radial_code" style="--value:90; color: rgb(34, 177, 34); " role="progressbar"><span class="custom_radial_content_code text-black font-extrabold">95%</span></div>
+                <div class="radial-progress custom_radial_code" style="--value:90; color: rgb(34, 177, 34); "
+                        role="progressbar"><span class="custom_radial_content_code text-black font-extrabold">95%</span>
+                </div>
                 <h4 class="text-xl font-bold">Experienced Coach</h4>
                 <p>Lorem ipsum dolor sit amet.</p>
             </div>
             <div class="scale-150 space-y-2">
-                <div class="radial-progress custom_radial_code" style="--value:85; color: rgb(243, 162, 57);" role="progressbar"><span class="custom_radial_content_code text-black font-extrabold">90%</span></div>
+                <div class="radial-progress custom_radial_code" style="--value:85; color: rgb(243, 162, 57);"
+                        role="progressbar"><span class="custom_radial_content_code text-black font-extrabold">90%</span>
+                </div>
                 <h4 class="text-xl font-bold">Senior Player</h4>
                 <p>Lorem ipsum dolor sit amet.</p>
             </div>
             <div class="scale-150 space-y-2">
-                <div class="radial-progress custom_radial_code" style="--value:80; color: rgb(24, 59, 214);" role="progressbar"><span class="custom_radial_content_code text-black font-extrabold">80%</span></div>
+                <div class="radial-progress custom_radial_code" style="--value:80; color: rgb(24, 59, 214);"
+                        role="progressbar"><span class="custom_radial_content_code text-black font-extrabold">80%</span>
+                </div>
                 <h4 class="text-xl font-bold">Training Ground</h4>
                 <p>Lorem ipsum dolor sit amet.</p>
             </div>
@@ -183,7 +216,7 @@
 
 
         <div class="border-dashed border-t-2 border-b-2 py-8 text-center space-y-10 my-10  mx-4 lg:mx-0">
-            <h2 class="text-5xl font-extrabold">Professional Hockeys Club</h2>
+            <h2 class="text-5xl font-extrabold">Program Sections</h2>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius porro nemo sit quisquam magnam earum.</p>
         </div>
 
@@ -191,15 +224,53 @@
         <!-- Cards With Background Image -->
 
 
-        <div>
-            <div class="card w-96 bg-base-100 shadow-xl image-full">
-                <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" />
-                </figure>
-                <div class="card-body">
-                    <h2 class="card-title">Shoes!</h2>
-                    <p>If a dog chews shoes whose shoes does he choose?</p>
-                    <div class="card-actions justify-end">
-                        <button class="btn btn-primary">Buy Now</button>
+        <div class="space-y-8 px-4 lg:px-0">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+
+                <div class="card image-full">
+                    <figure><img class="w-full" src="images/2.png" alt="Shoes" />
+                    </figure>
+                    <div class="card-body gap-5">
+                        <h2 class="card-title text-4xl">Teenager Program</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio minima labore harum nostrum
+                            error veritatis consectetur ut eum suscipit ullam! Quis eveniet hic aliquam modi quasi eos
+                            quaerat deserunt sit doloremque quibusdam. Quod perferendis nobis modi porro impedit
+                            laboriosam nihil.</p>
+                        <div class="card-actions">
+                            <button class="btn btn-error text-white text-xl">Register Now !</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card image-full">
+                    <figure><img class="w-full" src="images/2.png" alt="Shoes" />
+                    </figure>
+                    <div class="card-body gap-5">
+                        <h2 class="card-title text-4xl">Teenager Program</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio minima labore harum nostrum
+                            error veritatis consectetur ut eum suscipit ullam! Quis eveniet hic aliquam modi quasi eos
+                            quaerat deserunt sit doloremque quibusdam. Quod perferendis nobis modi porro impedit
+                            laboriosam nihil.</p>
+                        <div class="card-actions">
+                            <button class="btn btn-error text-white text-xl">Register Now !</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="card image-full">
+                    <figure><img class="w-full" src="images/4.png" alt="Shoes" />
+                    </figure>
+                    <div class="card-body gap-5">
+                        <h2 class="card-title text-4xl">Teenager Program</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio minima labore harum nostrum
+                            error veritatis consectetur ut eum suscipit ullam! Quis eveniet hic aliquam modi quasi eos
+                            quaerat deserunt sit doloremque quibusdam. Quod perferendis nobis modi porro impedit
+                            laboriosam nihil.</p>
+                        <div class="card-actions">
+                            <button class="btn btn-error text-white text-xl">Register Now !</button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -210,7 +281,7 @@
 
 
         <div class="border-dashed border-t-2 border-b-2 py-8 text-center space-y-10 my-10  mx-4 lg:mx-0">
-            <h2 class="text-5xl font-extrabold">Professional Hockeys Club</h2>
+            <h2 class="text-5xl font-extrabold">Our New Products</h2>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius porro nemo sit quisquam magnam earum.</p>
         </div>
 
@@ -218,15 +289,254 @@
         <!-- Products Grid -->
 
 
-        <div>
-            <div>
-                <div>
-                    <img src="" alt="">
-                </div>
-                <div>
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 px-4 lg:px-0">
+            <div class="flex flex-col lg:flex-row border-gray-300 border rounded-xl p-4 gap-4">
+                <img src="images/5.png" alt="">
+                <div class="grid items-stretch gap-4">
+                    <div class="flex  items-center gap-4">
+                        <div class="flex items-center gap-2">
+                            <div class="rating">
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            </div>
+                            <p>
+                                5.0
+                            </p>
+                        </div>
+                        <div class="flex  items-center gap-2">
+                            <i class="fa-solid fa-eye"></i>
+                            <p>20</p>
+                        </div>
+                        <div class="flex  items-center gap-2">
+                            <i class="fa-regular fa-heart"></i>
+                            <p>200</p>
+                        </div>
 
+                    </div>
+                    <h2 class="font-extrabold text-xl">
+                        World Cup Football
+                    </h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, tempora?
+                    </p>
+                    <div class="flex lg:items-center gap-4 flex-col lg:flex-row">
+                        <h3 class="font-extrabold text-red-500">
+                            Price - $22.00
+                        </h3>
+                        <div class="flex items-center gap-2">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <p>
+                                Delivery Fee : Free
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
+            <div class="flex flex-col lg:flex-row border-gray-300 border rounded-xl p-4 gap-4">
+                <img src="images/6.png" alt="">
+                <div class="grid items-stretch gap-4">
+                    <div class="flex  items-center gap-4">
+                        <div class="flex items-center gap-2">
+                            <div class="rating">
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            </div>
+                            <p>
+                                5.0
+                            </p>
+                        </div>
+                        <div class="flex  items-center gap-2">
+                            <i class="fa-solid fa-eye"></i>
+                            <p>20</p>
+                        </div>
+                        <div class="flex  items-center gap-2">
+                            <i class="fa-regular fa-heart"></i>
+                            <p>200</p>
+                        </div>
+
+                    </div>
+                    <h2 class="font-extrabold text-xl">
+                        World Cup Football
+                    </h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, tempora?
+                    </p>
+                    <div class="flex lg:items-center gap-4 flex-col lg:flex-row">
+                        <h3 class="font-extrabold text-red-500">
+                            Price - $22.00
+                        </h3>
+                        <div class="flex items-center gap-2">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <p>
+                                Delivery Fee : Free
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flex flex-col lg:flex-row border-gray-300 border rounded-xl p-4 gap-4">
+                <img src="images/7.png" alt="">
+                <div class="grid items-stretch gap-4">
+                    <div class="flex  items-center gap-4">
+                        <div class="flex items-center gap-2">
+                            <div class="rating">
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            </div>
+                            <p>
+                                5.0
+                            </p>
+                        </div>
+                        <div class="flex  items-center gap-2">
+                            <i class="fa-solid fa-eye"></i>
+                            <p>20</p>
+                        </div>
+                        <div class="flex  items-center gap-2">
+                            <i class="fa-regular fa-heart"></i>
+                            <p>200</p>
+                        </div>
+
+                    </div>
+                    <h2 class="font-extrabold text-xl">
+                        World Cup Football
+                    </h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, tempora?
+                    </p>
+                    <div class="flex lg:items-center gap-4 flex-col lg:flex-row">
+                        <h3 class="font-extrabold text-red-500">
+                            Price - $22.00
+                        </h3>
+                        <div class="flex items-center gap-2">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <p>
+                                Delivery Fee : Free
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flex flex-col lg:flex-row border-gray-300 border rounded-xl p-4 gap-4">
+                <img src="images/8.png" alt="">
+                <div class="grid items-stretch gap-4">
+                    <div class="flex  items-center gap-4">
+                        <div class="flex items-center gap-2">
+                            <div class="rating">
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            </div>
+                            <p>
+                                5.0
+                            </p>
+                        </div>
+                        <div class="flex  items-center gap-2">
+                            <i class="fa-solid fa-eye"></i>
+                            <p>20</p>
+                        </div>
+                        <div class="flex  items-center gap-2">
+                            <i class="fa-regular fa-heart"></i>
+                            <p>200</p>
+                        </div>
+
+                    </div>
+                    <h2 class="font-extrabold text-xl">
+                        World Cup Football
+                    </h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, tempora?
+                    </p>
+                    <div class="flex lg:items-center gap-4 flex-col lg:flex-row">
+                        <h3 class="font-extrabold text-red-500">
+                            Price - $22.00
+                        </h3>
+                        <div class="flex items-center gap-2">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <p>
+                                Delivery Fee : Free
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flex flex-col lg:flex-row border-gray-300 border rounded-xl p-4 gap-4">
+                <img src="images/9.png" alt="">
+                <div class="grid items-stretch gap-4">
+                    <div class="flex  items-center gap-4">
+                        <div class="flex items-center gap-2">
+                            <div class="rating">
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            </div>
+                            <p>
+                                5.0
+                            </p>
+                        </div>
+                        <div class="flex  items-center gap-2">
+                            <i class="fa-solid fa-eye"></i>
+                            <p>20</p>
+                        </div>
+                        <div class="flex  items-center gap-2">
+                            <i class="fa-regular fa-heart"></i>
+                            <p>200</p>
+                        </div>
+
+                    </div>
+                    <h2 class="font-extrabold text-xl">
+                        World Cup Football
+                    </h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, tempora?
+                    </p>
+                    <div class="flex lg:items-center gap-4 flex-col lg:flex-row">
+                        <h3 class="font-extrabold text-red-500">
+                            Price - $22.00
+                        </h3>
+                        <div class="flex items-center gap-2">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <p>
+                                Delivery Fee : Free
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flex flex-col lg:flex-row border-gray-300 border rounded-xl p-4 gap-4">
+                <img src="images/10.png" alt="">
+                <div class="grid items-stretch gap-4">
+                    <div class="flex  items-center gap-4">
+                        <div class="flex items-center gap-2">
+                            <div class="rating">
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            </div>
+                            <p>
+                                5.0
+                            </p>
+                        </div>
+                        <div class="flex  items-center gap-2">
+                            <i class="fa-solid fa-eye"></i>
+                            <p>20</p>
+                        </div>
+                        <div class="flex  items-center gap-2">
+                            <i class="fa-regular fa-heart"></i>
+                            <p>200</p>
+                        </div>
+
+                    </div>
+                    <h2 class="font-extrabold text-xl">
+                        World Cup Football
+                    </h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, tempora?
+                    </p>
+                    <div class="flex lg:items-center gap-4 flex-col lg:flex-row">
+                        <h3 class="font-extrabold text-red-500">
+                            Price - $22.00
+                        </h3>
+                        <div class="flex items-center gap-2">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <p>
+                                Delivery Fee : Free
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
 
 
@@ -234,7 +544,7 @@
 
 
         <div class="border-dashed border-t-2 border-b-2 py-8 text-center space-y-10 my-10  mx-4 lg:mx-0">
-            <h2 class="text-5xl font-extrabold">Professional Hockeys Club</h2>
+            <h2 class="text-5xl font-extrabold">Clients Questions</h2>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius porro nemo sit quisquam magnam earum.</p>
         </div>
 
