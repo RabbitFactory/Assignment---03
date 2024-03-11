@@ -665,14 +665,16 @@
                     </div>
                     <div class="flex-1 space-y-2">
                         <h2 class="font-extrabold">Phone Number</h2>
-                        <input class="bg-gray-100 p-4 rounded-lg w-full" type="text" placeholder="Enter your phone number">
+                        <input class="bg-gray-100 p-4 rounded-lg w-full" type="text"
+                                placeholder="Enter your phone number">
                     </div>
                 </div>
                 <div class="space-y-2">
                     <h2 class="font-extrabold">Message</h2>
-                    <textarea class="bg-gray-100 p-4 rounded-lg w-full" name="" id="" cols="30" rows="10" placeholder="Write your message"></textarea>
+                    <textarea class="bg-gray-100 p-4 rounded-lg w-full" name="" id="" cols="30" rows="10"
+                            placeholder="Write your message"></textarea>
                 </div>
-                <button class="btn btn-error text-white w-full"> 
+                <button class="btn btn-error text-white w-full">
                     Send Message
                 </button>
             </div>
@@ -682,7 +684,8 @@
         <!-- Social Media -->
 
 
-        <div class="bg-gray-50 flex flex-col justify-center items-center py-16 my-10 text-3xl gap-8 rounded-lg mx-4 lg:mx-0">
+        <div
+                class="bg-gray-50 flex flex-col justify-center items-center py-16 my-10 text-3xl gap-8 rounded-lg mx-4 lg:mx-0">
             <h3 class="font-extrabold">Social Media</h3>
             <div class="flex gap-10">
                 <i class="fa-brands fa-twitter"></i>
@@ -693,31 +696,44 @@
         </div>
     </main>
 
-    <footer class="footer p-10 bg-base-200 text-base-content">
-        <aside>
-
-            <p>ACME Industries Ltd.<br>Providing reliable tech since 1992</p>
-        </aside>
-        <nav>
-            <h6 class="text-xl font-extrabold">Services</h6>
-            <a class="link link-hover">Branding</a>
-            <a class="link link-hover">Design</a>
-            <a class="link link-hover">Marketing</a>
-            <a class="link link-hover">Advertisement</a>
-        </nav>
-        <nav>
-            <h6 class="text-xl font-extrabold">Company</h6>
-            <a class="link link-hover">About us</a>
-            <a class="link link-hover">Contact</a>
-            <a class="link link-hover">Jobs</a>
-            <a class="link link-hover">Press kit</a>
-        </nav>
-        <nav>
-            <h6 class="text-xl font-extrabold">Legal</h6>
-            <a class="link link-hover">Terms of use</a>
-            <a class="link link-hover">Privacy policy</a>
-            <a class="link link-hover">Cookie policy</a>
-        </nav>
+    <footer class="flex justify-between flex-col px-8 lg:flex-row bg-gray-900 text-white lg:px-96 py-20 gap-10">
+        <div class="flex flex-col gap-4 items-center lg:items-start">
+            <h2 class="text-3xl font-extrabold">Get in Touch</h2>
+            <p class= "max-w-80 text-gray-400 text-center lg:text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Eveniet corporis error voluptas nulla, eos ex!</p>
+            <div class="flex gap-4  items-center">
+                <i class="fa-solid fa-envelope text-orange-600"></i>
+                <p class="text-gray-400">hockeys@support.com</p>
+            </div>
+            <div class="flex gap-4  items-center">
+                <i class="fa-solid fa-phone text-orange-600"></i>
+                <p class="text-gray-400">(+62) 123-321-543</p>
+            </div>
+        </div>
+        <div class="flex justify-center gap-16 lg:gap-96">
+            <div class="flex flex-col gap-4 items-center lg:items-start">
+                <h6 class="text-xl font-extrabold">Services</h6>
+                <p class="text-gray-400" class="link link-hover">Branding</p>
+                <p class="text-gray-400" class="link link-hover">Design</p>
+                <p class="text-gray-400" class="link link-hover">Marketing</p>
+                <p class="text-gray-400" class="link link-hover">Advertisement</p>
+            </div>
+            <div class="flex flex-col gap-4 items-center lg:items-start">
+                <h6 class="text-xl font-extrabold">Company</h6>
+                <p class="text-gray-400" class="link link-hover">About us</p>
+                <p class="text-gray-400" class="link link-hover">Contact</p>
+                <p class="text-gray-400" class="link link-hover">Jobs</p>
+                <p class="text-gray-400" class="link link-hover">Press kit</p>
+            </div>
+        </div>
+        <div class="flex justify-center ">
+            <div class="flex flex-col gap-4 items-center lg:items-start">
+                <h6 class="text-xl font-extrabold">Legal</h6>
+                <p class="text-gray-400" class="link link-hover">Terms of use</p>
+                <p class="text-gray-400" class="link link-hover">Privacy policy</p>
+                <p class="text-gray-400" class="link link-hover">Cookie policy</p>
+            </div>
+        </div>
     </footer>
 </body>
 
